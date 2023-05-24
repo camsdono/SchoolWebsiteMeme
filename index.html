@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coming Soon...</title>
+  <style>
+    body {
+        overflow-y: hidden;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    #countdown {
+      font-size: 48px;
+      color: #666;
+      margin-top: 20px;
+    }
+    
+    #movie {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <div id="countdown"></div>
+
+  <video id="movie" src="./SuperMario.mp4" ></video>
+</body>   
+<script src="script.js"></script>
